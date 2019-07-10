@@ -1,22 +1,26 @@
 {
-  "name": "electron-quick-start",
+  "name": "electron-with-react-template",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "A simple template for desktop application development with react and electron",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron -r babel-register ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
     "Electron",
     "quick",
     "start",
-    "tutorial",
-    "demo"
+    "demo",
+    "React JS"
   ],
-  "author": "GitHub",
+  "author": "Jardel Gonçalves",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^5.0.6"
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "electron": "^5.0.6",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   }
 }
